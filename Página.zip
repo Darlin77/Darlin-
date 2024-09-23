@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de sensibilidad de Free Fire">
+    <title>Sensibilidades para Free Fire</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #333;
+        }
+
+        h1 {
+            margin: 0;
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .sensitivity-section, .other-settings {
+            background-color: #2a2a2a;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #f5f5f5;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        button.download-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button.download-btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: #888;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sensibilidades Óptimas para Free Fire</h1>
+    </header>
+
+    <main>
+        <section class="sensitivity-section">
+            <h2>Configuración de Sensibilidad</h2>
+            <ul>
+                <li><strong>General:</strong> 95</li>
+                <li><strong>Mira de Punto Rojo:</strong> 90</li>
+                <li><strong>Mira 2X:</strong> 85</li>
+                <li><strong>Mira 4X:</strong> 80</li>
+                <li><strong>Mira de Francotirador:</strong> 70</li>
+                <li><strong>Free Look:</strong> 100</li>
+            </ul>
+            <button class="download-btn">Descargar Configuración</button>
+        </section>
+
+        <section class="other-settings">
+            <h2>Otras Configuraciones</h2>
+            <p>Optimiza tus disparos con las mejores configuraciones para evitar dispersión de balas y mejorar la precisión en la cabeza.</p>
+            <button class="download-btn">Descargar Configuración de Disparo</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Free Fire Sensibilidad Pro. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.download-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Descargando configuración...');
+                // Aquí puedes redirigir o gestionar las descargas de las configuraciones
+            });
+        });
+    </script>
+</body>
+</html>
